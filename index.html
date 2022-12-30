@@ -9,9 +9,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <textarea>
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</textarea
-      >
+      <textarea required placeholder="Enter something to save"></textarea>
       <div class="file-options">
         <div class="option file-name">
           <label>File Name</label>
@@ -21,17 +19,20 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
           <label>Save as</label>
           <div class="select-menu">
             <select>
-              <option value="">Text File (.txt)</option>
-              <option value="">JS File (.js)</option>
-              <option value="">HTML File (.html)</option>
-              <option value="">SVG File (.svg)</option>
-              <option value="">Doc File (.doc)</option>
-              <option value="">PPT File (.ppt)</option>
+              <option value="text/plain">Text File (.txt)</option>
+              <option value="text/javascript">JS File (.js)</option>
+              <option value="text/html">HTML File (.html)</option>
+              <option value="image/svg+xml">SVG File (.svg)</option>
+              <option value="application/msword">Doc File (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">
+                PPT File (.ppt)
+              </option>
             </select>
           </div>
         </div>
       </div>
       <button class="save-btn">Save As Text File</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
