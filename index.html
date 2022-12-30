@@ -5,6 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Save Text as File</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <textarea>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</textarea
+      >
+      <div class="file-options">
+        <div class="option file-name">
+          <label>File Name</label>
+          <input type="text" placeholder="Enter file name" />
+        </div>
+        <div class="option save-as">
+          <label>Save as</label>
+          <div class="select-menu">
+            <select>
+              <option value="">Text File (.txt)</option>
+              <option value="">JS File (.js)</option>
+              <option value="">HTML File (.html)</option>
+              <option value="">SVG File (.svg)</option>
+              <option value="">Doc File (.doc)</option>
+              <option value="">PPT File (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn">Save As Text File</button>
+    </div>
+  </body>
 </html>

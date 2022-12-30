@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Catamaran:wght@400;500&family=Montserrat:wght@200;300;400&family=Poppins:wght@200;300;400&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Tangerine:wght@400;700&family=Vollkorn&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #bae6fd;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 450px;
+  border-radius: 7px;
+  background: #fff;
+  padding: 30px 25px 40px;
+}
+
+.wrapper :where(textarea, input, select, button) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper textarea {
+  height: 270px;
+  border: 1px solid #ccc;
+  resize: none;
+  padding: 8px 13px;
+  border: 1px solid #ccc;
+}
+
+.wrapper .file-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.file-options .option {
+  width: calc(100% / 2 - 8px);
+}
+
+.option :where(input, .select-menu) {
+  height: 50px;
+  padding: 0 15px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.option .select-menu select {
+  height: 50px;
+  background: none;
+}
+.wrapper .save-btn {
+  margin-top: 20px;
+  color: #fff;
+  padding: 16px 0;
+  cursor: pointer;
+  background: #bae6fd;
+  color: black;
+}
